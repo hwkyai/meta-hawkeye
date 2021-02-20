@@ -10,16 +10,24 @@ inherit packagegroup
 
 PROVIDES = "${PACKAGES}"
 PACKAGES = ' \
-            packagegroup-wifi-base \
-            packagegroup-wifi-ath10k \
+            ${PN}-base \
+            ${PN}-ath10k \
+            ${PN}-iwlwifi \
             '
 
-RDEPENDS_packagegroup-wifi-base = "\
+RDEPENDS_${PN}-base = "\
             wpa-supplicant \
             "
 
-RDEPENDS_packagegroup-wifi-ath10k = "\
-            packagegroup-wifi-base \
+RDEPENDS_${PN}-ath10k = "\
+            ${PN}-base \
             linux-firmware-ath10k \
             kernel-module-ath10k-pci \
+            "
+
+RDEPENDS_${PN}-iwlwifi = "\
+            ${PN}-base \
+            linux-firmware-iwlwifi-8265 \
+            kernel-module-iwlwifi \
+            kernel-module-iwlmvm \
             "
