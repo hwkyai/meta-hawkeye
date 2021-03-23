@@ -6,7 +6,7 @@ The majority of this layer's work is accomplished in bbappend files, used to ada
 
 ## Using the meta-hawkeye layer
 
-This layer is typically used in a device-specific repository such as [hawkeyeos-jetson](hawkeye/hawkeyeos-jetson).
+This layer is typically used in a device-specific repository such as [hawkeyeos-jetson][hawkeyeos-jetson].
 
 ## Contributing
 
@@ -19,3 +19,4 @@ in tree for individual recipes is under the LICENSE stated in each recipe
 (.bb file) unless otherwise stated.
 
 [tegra-demo-distro]:https://github.com/OE4T/tegra-demo-distro
+[hawkeyeos-jetson]:https://github.com/hwkyai/hawkeyeos-jetson
