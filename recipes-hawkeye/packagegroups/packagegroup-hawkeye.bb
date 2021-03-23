@@ -24,7 +24,7 @@ RDEPENDS_${PN}-base = " \
     data-overlay-setup \
 "
 
-RDEPENDS_${PN}-base = " \
+RDEPENDS_${PN}-dev = " \
     systemd-analyze \
     strace \
 "
