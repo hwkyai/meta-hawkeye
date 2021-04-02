@@ -28,6 +28,7 @@ RDEPENDS_${PN}-ath10k = "\
 RDEPENDS_${PN}-iwlwifi = "\
             ${PN}-base \
             linux-firmware-iwlwifi-8265 \
+            linux-firmware-iwlwifi-9260 \
             kernel-module-iwlwifi \
             kernel-module-iwlmvm \
             "
