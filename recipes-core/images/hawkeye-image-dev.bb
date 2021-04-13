@@ -9,6 +9,7 @@ DESCRIPTION = "A console-only base image for development"
 
 require hawkeye-image.bb
 
+HAWKEYE_ROOT_PASSWORD ?= ""
 IMAGE_FEATURES += "debug-tweaks"
 
 CORE_IMAGE_BASE_INSTALL += "packagegroup-hawkeye-dev"
