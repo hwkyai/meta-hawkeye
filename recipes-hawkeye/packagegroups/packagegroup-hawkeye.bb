@@ -27,4 +27,5 @@ RDEPENDS_${PN}-base = " \
 RDEPENDS_${PN}-dev = " \
     systemd-analyze \
     strace \
+    tmux \
 "
