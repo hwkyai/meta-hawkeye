@@ -21,6 +21,7 @@ RDEPENDS_${PN}-base = " \
     procps \
     less \
     docker-ce \
+    python3-docker-compose \
     data-overlay-setup \
 "
 
