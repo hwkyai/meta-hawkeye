@@ -20,6 +20,7 @@ RDEPENDS_${PN}-base = " \
     haveged \
     procps \
     less \
+    kernel-module-wireguard \
     docker-ce \
     python3-docker-compose \
     data-overlay-setup \
